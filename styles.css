@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: rgb(46, 42, 58);
+    display: grid;
+    place-items: center;
+}
+.card__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.card{
+    margin: 20px;
+    border-bottom: 15px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.card--1{
+    background: linear-gradient(90deg,rgb(1, 123, 223),rgb(0, 215, 215));
+}
+.card--2{
+    background: linear-gradient(90deg,rgb(231, 112, 0),rgb(203, 54, 0));
+}
+.card--3{
+    background: linear-gradient(90deg,rgb(142, 194, 0),rgb(0, 212, 181));
+}
+.title-card{
+    font-size: 10px;
+}
+.price{
+    font-size: 50px;
+}
+.plan{
+    font-size: 20px;
+}
+.container{
+    font-size: 15px;
+}
+.subscribe{
+    padding: 10px;
+    position: relative;
+    bottom: -20px;
+    right: -38px;
+    border-radius: 10px 0 ;
+    border: none;
+    
+
+}
+.subscribe:hover{
+    cursor: pointer;
+    animation-name: grow-up-left;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+@keyframes grow-up-left {
+    0%{
+        margin: left 0px;
+        left: 40px;
+    }
+    25%{
+        
+    }
+    50%{
+
+    }
+    75%{
+
+    }
+    100%{
+        margin: left 0px;
+        left: -40px;
+    }
+}
+/* 0%{
+    margin: left 0px;
+    left: 40px;
+}
+100%{
+    margin: left 0px;
+    left: -40px;
+} */

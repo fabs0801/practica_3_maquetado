@@ -49,39 +49,22 @@ body{
     right: -38px;
     border-radius: 10px 0 ;
     border: none;
-    
-
 }
 .subscribe:hover{
     cursor: pointer;
     animation-name: grow-up-left;
     animation-duration: 3s;
-    animation-iteration-count: inherit;
+    animation-fill-mode: forwards;
 }
 @keyframes grow-up-left {
     0%{
-        margin: left 0px;
-        left: 40px;
-    }
-    25%{
-        
-    }
-    50%{
-
-    }
-    75%{
-
+        padding-left: 0px;
+        translate: 0px ;
     }
     100%{
-        margin: left 0px;
-        left: -40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        translate: -30px ;
     }
 }
-/* 0%{
-    margin: left 0px;
-    left: 40px;
-}
-100%{
-    margin: left 0px;
-    left: -40px;
-} */
+
